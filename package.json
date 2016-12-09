@@ -1,0 +1,14 @@
+{
+  "name": "Node.js-Chat",
+  "description": "Ein einfacher Chat mit Node.js",
+  "author": "NodeCode.de",
+  "dependencies": {
+    "colors": "*",
+    "express": "3.x",
+    "socket.io": "*",
+    "vorpal": "^1.4.1",
+    "vorpal-less": "0.0.11",
+    "vorpal-repl": "^1.1.8",
+    "websocket": "*"
+  }
+}

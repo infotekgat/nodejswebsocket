@@ -1,0 +1,6 @@
+{
+  "port": 8090,
+  "serverIP": "192.168.71.193",
+  "sendIntervall": 1000,
+  "clientcount": 1
+}
