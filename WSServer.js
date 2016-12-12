@@ -69,7 +69,8 @@ var server = http.createServer(function(request, response) {
     response.end();
 });
 server.listen(conf.port, function () {
-    LogFuction(messageType.info, ((new Date()) + ' Server is listening on port: ' + conf.port));
+    var server_port = process.env.YOUR_PORT || process.env.PORT || 80;
+    LogFuction(messageType.info, ((new Date()) + ' Server is listening on port: ' + server_port));
 });
  
 wsServer = new WebSocketServer({
