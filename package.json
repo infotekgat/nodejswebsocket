@@ -2,9 +2,9 @@
   "name": "Node.js-Chat",
   "description": "Ein einfacher Chat mit Node.js",
   "author": "NodeCode.de",
-  "main": "wsserver.js",
+  "main": "WSServer.js",
   "scripts": {
-    "start": "wsserver.js"
+    "start": "WSServer.js"
   },
   "dependencies": {
     "colors": "*",
