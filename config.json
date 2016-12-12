@@ -1,6 +1,7 @@
 {
-  "port": 8090,
-  "serverIP": "192.168.71.193",
+  "port": 8080,
+  "_serverIP": "calm-river-79566.herokuapp.com",
+  "serverIP": "dcjump2.northeurope.cloudapp.azure.com",
   "sendIntervall": 1000,
   "clientcount": 1
 }
